@@ -4,7 +4,7 @@ verify_username=["user","user2","user3","user4"]
 
 verify_userpasswd=["stud","stud2","stud3","stud4"]
 
-
+#Function which verify the user authentication
 def verification():
     user_name=input("Enter a User Name > ")
     for value in verify_username:
